@@ -1,0 +1,9 @@
+<!-- teacher-table.component.html -->
+<div>
+  <input type="text" (input)="searchTeacher($event.target.value)" placeholder="Search Teacher by Name" />
+</div>
+
+<!-- student-table.component.html -->
+<div>
+  <input type="text" (input)="searchStudent($event.target.value)" placeholder="Search Student by Name" />
+</div>
